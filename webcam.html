@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles-cam.css">
+    <title>Face API WebCam con Tensor Flow.js</title>
+</head>
+
+<body>
+    <div style="position: relative">
+        <video onloadedmetadata="onPlay(this)" id="inputVideo" autoplay muted playsinline></video>
+        <canvas id="overlay">
+    </div>
+
+    <script src="./dist/face-api.min.js"></script>
+    <script src="./js/script_webcam.js"></script>
+</body>
+
+</html>
